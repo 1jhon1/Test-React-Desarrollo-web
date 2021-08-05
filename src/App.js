@@ -1,4 +1,4 @@
-import React, { useState, useEffect,props } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 import Start from './components/Start';
@@ -41,10 +41,10 @@ const App = () => {
     }, 1000);
   }
   
-  const na=()=>{
+  
     var texto=document.getElementById("uno").value;
     document.getElementById("dos").value=texto;
-  }
+  
  
 
   return (
