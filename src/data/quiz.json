@@ -1,0 +1,55 @@
+{
+    "data": [
+      
+      { "num":"Pregunta: 1 de 10",
+        "question": "1. Cual de las siguientes afirmaciones define la función trigonometrica seno: ?",
+        "choices": ["cateto opuesto / hipotenusa" ,"cateto opuesto / cateto adyacente","cateto adyacente / hipotenusa","hipotenusa / hipotenusa"],
+        "answer": "cateto opuesto / hipotenusa"        
+      },
+      {"num":"Pregunta: 2 de 10",
+        "question": "2. Cual de las siguientes afirmaciones define la función trigonometrica coseno: ?",
+        "choices": ["cateto opuesto / hipotenusa","cateto opuesto /  cateto adyacente","cateto adyacente / hipotenusa","hipotenusa / hipotenusa"],
+        "answer": "cateto adyacente / hipotenusa"
+      },
+      {"num":"Pregunta: 3 de 10",
+        "question": "3. Cual de las siguientes afirmaciones define la función trigonometrica tangente: ?",
+        "choices": ["cateto opuesto / hipotenusa","cateto opuesto /  cateto adyacente","cateto adyacente / hipotenusa","hipotenusa / hipotenusa"],
+        "answer": "cateto opuesto /  cateto adyacente"
+      },
+      {"num":"Pregunta: 4 de 10",
+        "question": "4. Cual de las siguientes afirmaciones define la función trigonometrica cotangente: ?",
+        "choices": ["cateto opuesto / hipotenusa","cateto opuesto /  cateto adyacente","cateto adyacente / hipotenusa","cateto adyacente / cateto opuesto"],
+        "answer": "cateto adyacente / cateto opuesto"
+      },
+      {"num":"Pregunta: 5 de 10",
+        "question": "5. Cual de las siguientes afirmaciones define la función trigonometrica secante: ?",
+        "choices": ["hipotenusa / cateto adyacente","cateto opuesto /  cateto adyacente","cateto adyacente / hipotenusa","hipotenusa / hipotenusa"],
+        "answer": "hipotenusa / cateto  adyacente"
+      },
+      {"num":"Pregunta: 6 de 10",
+        "question": "6. Cual de las siguientes afirmaciones define la función trigonometrica cosecante: ?",
+        "choices": ["hipotenusa / hipotenusa","cateto opuesto /  cateto adyacente","cateto adyacente / hipotenusa"," hipotenusa / cateto opuesto"],
+        "answer": "hipotenusa / cateto opuesto"
+      },
+      {"num":"Pregunta: 7 de 10",
+        "question": " 7.La suma de los angulos interiores de un triangulo es igual a: ?",
+        "choices": ["360°","180°","270°", "10°"],
+        "answer": "180°"
+      },
+      {"num":"Pregunta: 8 de 10",
+        "question": "8. La formula del area de un triangulo es:?",
+        "choices": ["altura/2","base x altura","base x altura / 2","altura x altura"],
+        "answer": "base x altura / 2"
+      },
+      {"num":"Pregunta: 9 de 10",
+        "question": "9. La formula de una linea recta es: ?",
+        "choices": ["y=mx+b","z=m+b","x=y+m","w=y+m"],
+        "answer": "y=mx+b"
+      },
+      {"num":"Pregunta: 10 de 10",
+        "question": "10. si la pendiente es positiva su función es : ?",
+        "choices": ["Constante","Decreciente","Cero","Creciente"],
+        "answer": "Creciente"
+      }
+    ]
+  }

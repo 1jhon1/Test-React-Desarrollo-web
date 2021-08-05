@@ -1,38 +1,125 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+ *{
+  box-sizing: border-box;
+  margin: 50;
+  padding: 0;
+  outline: none;
+ 
+ }
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100%;
+  background-color: #009688;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.App .card {
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10%;
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
+
+label.radio+.radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
+}
+.num{
+  margin: 30px;
+ text-align: left;
+}
+.btn{
+  padding: 15px 45px;
+  background-color: #009688;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  
+}
+
+.btn1{
+ position: static;
+  padding: 15px 45px;
+  background-color: #009688;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: -400px;
+  
+}
+.indicator div{
+  height: 30px;
+  width: 40px;
+  display: inline-block;
+  background-color: #cccccc;
+  margin-right: 3px;
+  margin-top: 15px;
+  margin-bottom:10px;
+  color: #009688;
+  cursor: pointer;
+}
+
+
+i{
+  font-size: 60px;
+  margin-top: 10px;
+  color: #009688;
+  margin-bottom: 30px;
+  
+}
+
+header{
+  height: 40px;
+  width: 10px;
+  background: white;
+  padding-top: 20px;
+
+ 
+}
+.nom{
+height: 40px;
+width: 350px;
+margin-top: -665px;
+position: fixed;
+font-size: 20px;
+border:none;
+}
+.nom1{
+  height: -50px;
+width: 520px;
+margin-top: -665px;
+position: fixed;
+font-size: 20px;
+color: #009688;
+
+  }
+  
+ 
+
