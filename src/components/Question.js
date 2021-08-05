@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, Fragment} from 'react';
+import React, { useState, useEffect, useRef} from 'react';
 
 
 
@@ -36,7 +36,7 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
     }
   
   }
-   
+  {/*
 function lerr(){
  
    
@@ -45,7 +45,7 @@ function lerr(){
   
   } 
 }
-  
+  */}
   return( 
     
     <div className="card">
