@@ -41,11 +41,11 @@ const App = () => {
     }, 1000);
   }
   
-  
+  const na=()=> {
     var texto=document.getElementById("uno").value;
     document.getElementById("dos").value=texto;
   
- 
+  }
 
   return (
     <div className="App">
